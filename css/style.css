@@ -31,7 +31,7 @@ section p {
 }
 .form1 {
   max-width: 756px;
-  width: 100%;
+  width: 756px;
   height: 298px;
   border: 2px solid #00000033;
   background-color: #d4d3d34d;
@@ -76,55 +76,141 @@ section p {
   padding-left: 45%;
   color: #fbfbff;
 }
-.container2{
-    max-width: 1146px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 64px;
+.container2 {
+  max-width: 1146px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
 }
-.card1{
-    max-width: 226px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 8px;
-
+.card1 {
+  max-width: 226px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
 }
-.email{
-    background: #5968F4;
-    width: 68px;
-    height: 68px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+.email {
+  background: #5968f4;
+  width: 68px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
-h3{
-    font-family: Helvetica;
-    color: #4E4D54;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
+h3 {
+  font-family: Helvetica;
+  color: #4e4d54;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-h4{
-    font-family: Helvetica;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 17px;
-    letter-spacing: 0em;
-    text-align: left;
+h4 {
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-.container3{
-    max-width: 1317px;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 53px;
-    display: flex;
-    justify-content: space-between;
+.container3 {
+  max-width: 1317px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 53px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 39px;
 }
-
+footer {
+  background-color: black;
+  height: 372px;
+}
+.card2 {
+  border: 2px solid black;
+  max-width: 295px;
+  width: 100%;
+}
+h5 {
+  font-family: Helvetica;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card2 p {
+  font-family: Helvetica;
+  color: #99999a;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 23px;
+  margin-bottom: 27px;
+}
+.card3 {
+  max-width: 108px;
+  width: 100%;
+}
+.card3 h2,
+.card4 h2,
+.card5 h2 {
+  font-family: Helvetica;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 32px;
+}
+li {
+  font-family: Helvetica;
+  color: #5863e3;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 9px;
+}
+.card5 {
+  max-width: 240px;
+  width: 100%;
+}
+.box div {
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 8px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+div h3{
+  font-family: Helvetica;
+  color: #FFFFFF;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.container4{
+  max-width: 1121px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 63px;
+}

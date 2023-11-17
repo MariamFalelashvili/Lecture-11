@@ -15,3 +15,8 @@
         width: 99%;
     }
 }
+@media (max-width:1146px){
+    .container2{
+        width: 90%;
+    }
+}

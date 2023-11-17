@@ -1,82 +1,130 @@
-.container{
-    max-width:1146px;
-    width: 100%;
-    margin: 0 auto;
-    margin-top:57px
+.container {
+  max-width: 1146px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 57px;
 }
-section h2{
-    font-family: Helvetica;
-    color: #5863E3;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
+section h2 {
+  font-family: Helvetica;
+  color: #5863e3;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-section p{
-    font-family: Helvetica;
-    font-size: 49px;
-    font-weight: 400;
-    line-height: 56px;
-    letter-spacing: 0em;
-    text-align: left;
+section p {
+  font-family: Helvetica;
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-.container1{
+.container1 {
+  max-width: 1146px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 57px;
+}
+.form1 {
+  max-width: 756px;
+  width: 100%;
+  height: 298px;
+  border: 2px solid #00000033;
+  background-color: #d4d3d34d;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 21px;
+  padding-bottom: 245px;
+}
+.form2 {
+  max-width: 370px;
+  width: 100%;
+  height: 318px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form2 input {
+  max-width: 370px;
+  width: 100%;
+  height: 59px;
+  border: 2px solid #00000033;
+  background-color: #d4d3d34d;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 19px;
+}
+.form2 .send {
+  width: 370px;
+  height: 59px;
+  top: 495px;
+  left: 920px;
+  background: #5968f4;
+  border: #5968f4;
+  padding-left: 45%;
+  color: #fbfbff;
+}
+.container2{
     max-width: 1146px;
-    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 57px
+    margin-top: 64px;
 }
-
-.form1{
-    width: 756px;
-    height: 298px;
-    top: 253px;
-    left: 144px;
-    border: 2px solid #00000033;
-    background-color: #D4D3D34D ;
-    font-family: Helvetica;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding-left: 21px;
-    padding-bottom: 245px;
-}
-.form2{
-    max-width: 370px;
+.card1{
+    max-width: 226px;
     width: 100%;
-    height: 318px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-}
+    align-items: center;
+    gap: 8px;
 
-.form2 input{
-    max-width: 370px;
-    width: 100%;
-    height: 59px;
-    top: 253px;
-    left: 920px;
-    border: 2px solid #00000033;
-    background-color: #D4D3D34D;  
+}
+.email{
+    background: #5968F4;
+    width: 68px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+h3{
     font-family: Helvetica;
-    font-size: 14px;
+    color: #4E4D54;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 16px;
+    line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
-    padding-left: 19px;
 }
-.form2 .send{
-    width: 370px;
-    height: 59px;
-    top: 495px;
-    left: 920px;
-    background: #5968F4;
-    border: #5968F4 ;
-    padding-left: 45%;
-    color: #FBFBFF;
+h4{
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
 }
+.container3{
+    max-width: 1317px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
